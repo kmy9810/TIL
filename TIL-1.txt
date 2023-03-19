@@ -1,0 +1,43 @@
+<23.03.19>
+1. Git
+- git : 내 컴퓨터 프로젝트의 버전 관리 도구
+- 내 프로젝트 버전 관리!
+- 히스토리로 어떤 작업을 했는지 확인 가능
+- 협업을 용이하게 함
+
+2. GitHub
+- GitHub : git의 원격저장소 + 커뮤니티 기능 서비스
+- 그 외 : gitlab, bitbucket 등
+
+3. Sourcetree
+- Sourcetree : git을 쉽게 사용할 수 있는 도구 
+- 전 세계에서 가장 많이 사용되는 git 도구 중 하나
+
+4. Commit
+- 커밋을 통해 현재 프로젝트의 상태 저장 및 조회
+- 파일 내용, 언제, 누가 저장했는지 정보 생성 및 조회
+- commit history = commit log
+- git commit -m "메세지"
+- 커밋은 기능별로 하는 것이 보기 좋음
+
+5. Repo
+- 리포지토리(repository)의 약자
+- local repository : 내 컴퓨터에 저장되어있는 repo
+- remote repository : 원격 공간에 저장되어있는 repo (ex. GitHub)
+
+6. Push
+- 로컬 repo 의 commit 들을 원격 repo 에 반영
+- commit들을 밀어넣기!
+
+7. Pull
+- 원격 repo 의 commit 들을 로컬 repo 에 반영
+- commit들을 땡겨오기!
+
+8. Clone
+- 원격 repo 를 내 컴퓨터에서도 사용할 수 있도록 가져오는 것
+- 초기 다운로드
+
+9. 오늘의 꿀팁!
+- 혼자 Git 프로젝트 작업을 할 때는 pull -> 로컬 repo commit -> push
+- 충돌(conflict) : 원격 repo 와 로컬 repo 에서 같은 파일을 수정하면 Git 이 같은 파일을 수정했는데 내가 어떤 파일을 최종으로 할까? 라는 확인 메시지
+
